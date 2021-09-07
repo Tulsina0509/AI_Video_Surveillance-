@@ -14,3 +14,23 @@ body
 {
   font-size: 18px;
 }
+
+canvas
+{
+  border:2px solid #ACFFAD;
+  border-radius:10px;
+  margin-top:130px;
+  box-shadow: 5px 5px 5px #71EFA3;
+}
+
+.copy_right_footer {
+position:fixed;
+color: #50CB93;
+bottom: 0;
+width: 100%;
+background-color:#54436B;
+line_height:2;
+text-align:center;
+}
+  
+  
