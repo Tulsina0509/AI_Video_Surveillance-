@@ -10,6 +10,15 @@ function preload(){
   }
 function draw() {
 image(video,0,0,480,380);
+  if(status != "")
+  {
+    objectDetector.detect(video,gotResult);
+  }
+  function gotResult(error, results) {
+    if(error) {
+      console.log(error);
+    }
+    console.log(results);
 }
   function start () 
 {
